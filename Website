@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="High-Quality Custom 3D Printing Services - Your trusted partner for prototypes, custom designs, and small-batch production.">
+    <title>3D-Printco - Custom 3D Printing Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">3D-Printco</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Custom 3D Printing Services</h1>
+        <p>High-Quality, Affordable, and Fast 3D Printing for Prototyping & Small-Batch Production</p>
+        <a href="#contact" class="cta-button">Get a Free Quote</a>
+    </section>
+
+    <!-- About Us -->
+    <section id="about">
+        <h2>About 3D-Printco</h2>
+        <p>At 3D-Printco, we specialize in turning ideas into reality with cutting-edge 3D printing technology. From rapid prototyping to custom models and small-batch production, our expertise ensures precision and quality in every project.</p>
+        <p>Our goal is to make high-quality 3D printing accessible for industries like engineering, architecture, product design, and more.</p>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Rapid Prototyping</h3>
+            <p>Get your prototypes quickly with our fast and efficient 3D printing services. Perfect for testing designs, engineering concepts, and functional models.</p>
+        </div>
+        <div class="service">
+            <h3>Custom 3D Models</h3>
+            <p>Need a unique 3D model? We work with your designs or provide assistance to create detailed, high-quality 3D printed models for any purpose.</p>
+        </div>
+        <div class="service">
+            <h3>Small-Batch Production</h3>
+            <p>3D-Printco offers cost-effective small-batch production services. Whether for limited-run products or customized parts, we deliver with precision.</p>
+        </div>
+        <div class="service">
+            <h3>Material Choices</h3>
+            <p>We offer a range of materials, including PLA, ABS, PETG, Resin, and more. Whatever your project needs, we have the right material to match your specifications.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+        <h2>Our Work</h2>
+        <div class="gallery">
+            <img src="images/project1.jpg" alt="Project 1: Custom Architectural Model">
+            <img src="images/project2.jpg" alt="Project 2: Prototype for Consumer Product">
+            <img src="images/project3.jpg" alt="Project 3: Industrial Prototype for Testing">
+            <img src="images/project4.jpg" alt="Project 4: Custom Figurine">
+        </div>
+        <p>Explore our portfolio to see how we’ve helped clients in various industries bring their ideas to life with precision 3D printing.</p>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Ready to start your next 3D printing project? Get in touch for a free quote!</p>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 3D-Printco. All Rights Reserved.</p>
+        <div class="social">
+            <a href="https://facebook.com/3dprintco" target="_blank">Facebook</a>
+            <a href="https://instagram.com/3dprintco" target="_blank">Instagram</a>
+            <a href="https://linkedin.com/company/3dprintco" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+
+</body>
+</html>
